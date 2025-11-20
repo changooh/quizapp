@@ -113,7 +113,7 @@ def main():
     initialize_session_state()
 
     # Header
-    st.title("🧠 My Quiz App")
+    st.subheader("🧠 My Quiz App")
     st.markdown("---")
 
     # Reset button (only show when quiz is active and not completed)
